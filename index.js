@@ -27,8 +27,9 @@ const decrementCounter = () => {
   }
 }
 
-console.log('Initial state: ', store.getState())
+console.log('Initial state', store.getState())
+store.subscribe(() => console.log(store.getState()))
 store.dispatch(incrementCounter())
 store.dispatch(incrementCounter())
 store.dispatch(incrementCounter())
-console.log('Current state: ', store.getState())
+store.dispatch(decrementCounter())
