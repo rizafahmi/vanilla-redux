@@ -1,0 +1,10 @@
+{
+  "name": "vanilla-redux",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Riza Fahmi",
+  "license": "MIT",
+  "dependencies": {
+    "redux": "^3.6.0"
+  }
+}
